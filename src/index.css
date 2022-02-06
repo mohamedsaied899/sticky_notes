@@ -1,0 +1,39 @@
+/* Build the style */
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#009578;
+}
+#root{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding:24px;
+    gap:24px;
+}
+.note{
+    height:200px;
+    resize:none;
+    outline: none;
+    padding:16px;
+    border:none;
+    border-radius: 8px;
+    font-size:16px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+}
+.add-button{
+    height:230px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+    resize:none;
+    padding:16px;
+    border:none;
+    border-radius: 8px;
+    font-size:120px;
+    cursor: pointer;
+}
+.add-button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
