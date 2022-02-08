@@ -1,6 +1,6 @@
 // Make the Function of Notes
 const notesContainer = document.getElementById("root");
-const addNotesButton = notesContainer.querySelector('add-button');
+const addNotesButton = notesContainer.querySelector('.add-button');
 
 getNotes().forEach(note => {
     const noteElement = createNoteElement(note.id, note.content);
